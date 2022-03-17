@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #3f3d56;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 396px;
+  margin: 0 auto;
+  
+}
+.title {
+  font-size: 37px;
+  margin-bottom: 22px;
+  margin-top: 22px;
+  font-weight: 700;
+}
+.label-field {
+  font-size: 14px;
+  font-weight: 400;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+  width: 396px;
+}
+
+.box-date {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.box-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-genre {
+margin-bottom: 16px;
+}
+
+.wrapper-genre {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-terms {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  font-size: 14px;
+
+}
+
+.button {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 28px;
+  background-color: #3F3D56;
+  width: 396px;
+  padding: 14px 162px 14px 162px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input {
+  border-radius: 0%;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  border-color: #abb3a8;
+  border-style: solid;
+  border-width: 1px;
+}
+
+select {
+  border-radius: 0%;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  border-color: #abb3a8;
+}
+
+.box-login {
+  display: flex;
+  align-items: center; 
+  width: 396px;
+  margin-bottom: 22px;
+}
+
+/* Preciso melhorar o CSS para diminuir a quantidade de "class" diferentes e otimizar o código */
+/* Falta espaçamento de 4px entre os labels e os inputs */
